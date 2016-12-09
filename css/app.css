@@ -1,0 +1,33 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+html, body, section {
+  margin: 0;
+  height: 100%; }
+
+section {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%; }
+  section::after {
+    clear: both;
+    content: "";
+    display: block; }
+  section header, section section {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+    padding: 15px;
+    height: auto;
+    background-color: red;
+    height: 100%;
+    margin-bottom: 2em; }
+    section header:last-child, section section:last-child {
+      margin-right: 0; }
+
+/*# sourceMappingURL=app.css.map */
